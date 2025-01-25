@@ -356,9 +356,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1489234231861386916, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: ShoulderOffset.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489234232454393700, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 2148176801004552080, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       propertyPath: m_Name
       value: PlayerContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924074526456163459, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 5595516011317465053, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       propertyPath: m_LocalPosition.x
