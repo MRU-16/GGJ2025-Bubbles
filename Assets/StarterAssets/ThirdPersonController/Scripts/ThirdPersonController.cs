@@ -16,6 +16,7 @@ namespace StarterAssets
     public class ThirdPersonController : MonoBehaviour
     {
         [Header("Events")] [SerializeField] private UnityEvent _onWin;
+        [SerializeField] private HUD _hud;
         
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -411,7 +412,6 @@ namespace StarterAssets
 
         public void Win()
         {
-            Debug.Log("You Win!");
             _onWin.Invoke();
         }
     }
