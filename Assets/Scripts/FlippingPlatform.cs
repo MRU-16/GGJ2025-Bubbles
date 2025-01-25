@@ -3,6 +3,7 @@ using System.Collections;
 using PrimeTween;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class FlippingPlatform : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class FlippingPlatform : MonoBehaviour
     [SerializeField] private Ease _flipEase;
 
     [SerializeField] private float _flipCooldown;
+
+    [Header("Events")] 
+    [SerializeField] private UnityEvent OnFlip;
     
     private bool _isUpright = false;
 

@@ -1,11 +1,13 @@
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Platform : MonoBehaviour
 {
-    [SerializeField] private float _bounceHeight;
-    
+    [SerializeField, Header("Events")] private UnityEvent _onBounce;
+    [SerializeField, Header("Preferences")] private float _bounceHeight;
+
     private void OnTriggerEnter(Collider collision)
     {
         Debug.Log("Contact");
@@ -14,6 +16,7 @@ public class Platform : MonoBehaviour
         {
             Debug.Log("Good Contact");
             controller.Jump(_bounceHeight, true);
+            _onBounce.Invoke();
         }
     }
 }

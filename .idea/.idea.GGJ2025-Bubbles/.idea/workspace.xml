@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a0d4de-b763-4283-b9a0-10f05931a364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/BouncePad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/BouncePad.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/FlippingPlatformContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Obstacles/FlippingPlatformContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlippingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlippingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platform.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
