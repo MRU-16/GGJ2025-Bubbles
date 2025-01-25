@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3727367344626492097}
   - component: {fileID: 1009003690886783381}
   - component: {fileID: 3251713602390117188}
-  - component: {fileID: 1068466769488084315}
   - component: {fileID: 4139208193187627566}
+  - component: {fileID: 8091298011156935475}
   m_Layer: 0
   m_Name: BubblePlatform
   m_TagString: Untagged
@@ -138,19 +138,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 1
---- !u!114 &1068466769488084315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6387986857043343956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a371c9497beff4f8ab5b5c2b3df926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bounceHeight: 5
 --- !u!114 &4139208193187627566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,3 +165,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8091298011156935475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387986857043343956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8251a3894172f514f924e1c82aa00eb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onBounce:
+    m_PersistentCalls:
+      m_Calls: []
+  _bounceHeight: 12
+  _bubbleLifespan: 5
+  _onBubbleExpired:
+    m_PersistentCalls:
+      m_Calls: []
