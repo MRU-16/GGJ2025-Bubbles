@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1009003690886783381}
   - component: {fileID: 3251713602390117188}
   - component: {fileID: 1068466769488084315}
+  - component: {fileID: 4139208193187627566}
   m_Layer: 0
   m_Name: BubblePlatform
   m_TagString: Untagged
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 20c3f71438979fa4bb16a0ddab33383a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -150,3 +151,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bounceHeight: 5
+--- !u!114 &4139208193187627566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387986857043343956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecfe14d8e8fee646a3180d0bed3172d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onPopped:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6387986857043343956}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

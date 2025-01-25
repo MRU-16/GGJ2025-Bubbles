@@ -4,7 +4,10 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    [SerializeField] private Image _image;
+    [SerializeField, Header("Spawning")] private string _menuSceneName;
+    [SerializeField] private Transform _lastCheckpoint;
+    
+    [SerializeField,Header("HUD")] private Image _image;
     [SerializeField] private Color _clear;
     [SerializeField] private Color _faded;
     [SerializeField] private float _fadeDuration;
