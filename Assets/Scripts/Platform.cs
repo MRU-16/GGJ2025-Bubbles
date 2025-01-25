@@ -5,10 +5,10 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Rigidbody))]
 public class Platform : MonoBehaviour
 {
-    [SerializeField, Header("Events")] private UnityEvent _onBounce;
-    [SerializeField, Header("Preferences")] private float _bounceHeight;
+    [SerializeField, Header("Events")] protected UnityEvent _onBounce;
+    [SerializeField, Header("Preferences")] protected float _bounceHeight;
 
-    private void OnTriggerEnter(Collider collision)
+    protected void OnTriggerEnter(Collider collision)
     {
         Debug.Log("Contact");
         ThirdPersonController controller = collision.gameObject.GetComponentInParent<ThirdPersonController>();
