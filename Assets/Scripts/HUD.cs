@@ -10,7 +10,7 @@ public class HUD : MonoBehaviour
     [SerializeField] private Transform _lastCheckpoint;
     
     [SerializeField] private float _menuDelay;
-    
+    [SerializeField] private Image _fillBar;
     [SerializeField,Header("HUD")] private Image _image;
     [SerializeField] private Color _clear;
     [SerializeField] private Color _winFade;
@@ -18,11 +18,16 @@ public class HUD : MonoBehaviour
     [SerializeField] private float _fadeDuration;
 
     [SerializeField] private bool _fadeOutTest;
+    
+    [field: SerializeField] public bool CanSpawnBubble { get; set; }
 
     private void Start()
     {
         _image.color = _winFade;
         FadeScreen(true, _deadFade);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
     }
     
     private void Update()
@@ -50,6 +55,11 @@ public class HUD : MonoBehaviour
     {
         if (fadingIn) Tween.Color(_image, _clear, _fadeDuration);
         else Tween.Color(_image, endGame, _fadeDuration);
+    }
+
+    public void ChangeBubbleAmount(float ratio)
+    {
+        _fillBar.fillAmount = ratio;
     }
 
     private IEnumerator SwitchScene(string sceneName,float delay)
