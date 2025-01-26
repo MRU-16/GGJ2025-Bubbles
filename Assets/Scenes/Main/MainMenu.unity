@@ -4283,6 +4283,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5081414460418628518, guid: f0391e4c8871ced459f6e4902d7d55f5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Mark-Level-Gym
+      objectReference: {fileID: 0}
     - target: {fileID: 5096670135072133773, guid: f0391e4c8871ced459f6e4902d7d55f5, type: 3}
       propertyPath: _fadeImage
       value: 
