@@ -21,6 +21,9 @@ namespace StarterAssets
         [SerializeField] private UnityEvent _onJump;
         [SerializeField] private UnityEvent _onLand;
         [field: SerializeField] public HUD Hud { get; private set; }
+
+        [SerializeField] private int _pointsToWin = 3;
+        public int _pointsWon = 0;
         
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -420,7 +423,7 @@ namespace StarterAssets
 
         public void Win()
         {
-            _onWin.Invoke();
+            Hud.CheckPoints(_pointsWon, _pointsToWin);
         }
     }
 }

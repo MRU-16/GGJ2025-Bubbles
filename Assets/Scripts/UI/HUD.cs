@@ -20,6 +20,8 @@ public class HUD : MonoBehaviour
     [SerializeField] private Color _deadFade;
     [SerializeField] private float _fadeDuration;
 
+    [SerializeField] private TextMeshProUGUI _text;
+    
     private bool _isInMenu = false;
     [SerializeField] private GameObject _pauseButton;
     
@@ -33,6 +35,7 @@ public class HUD : MonoBehaviour
 
     private void Start()
     {
+        _text.text = "0 / 3";
         LastCheckpoint=_initialCheckpoint;
         
         _image.color = _winFade;
@@ -122,6 +125,17 @@ public class HUD : MonoBehaviour
                 _pauseButton.SetActive(true);
             }
             _isInMenu = !_isInMenu;
+        }
+    }
+
+    public void CheckPoints(int points, int maxPoints)
+    {
+        // Display points
+        _text.text = points.ToString() + " / " + maxPoints.ToString();
+        
+        if (points >= maxPoints)
+        {
+            Win();
         }
     }
 }
