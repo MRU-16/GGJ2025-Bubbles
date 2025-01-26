@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuNav : MonoBehaviour
+public class MenuNav : ButtonBase
 {
     [SerializeField] private List<GameObject> menuItemsToShow = new List<GameObject>();
     [SerializeField] private List<GameObject> menuItemsToHide = new List<GameObject>();

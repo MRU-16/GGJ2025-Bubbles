@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a72a7751-a357-4a4f-8f8c-d8cae6812d7d}">
+		<property name="assetPath">
+			<value>C4U284_001_Vassals_Main.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>90.599999999999994</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d8226fc7-a1d2-40e4-bcf9-d1eb99f8898e}</destination>
+		</relationship>
+	</object>
+</objects>

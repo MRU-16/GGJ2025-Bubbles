@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734364987376007
+  lastModified: 638734396839386732
   FileSizes:
   - Name: Desktop
-    Value: 1360
+    Value: 1424
   Exists: 1
 --- !u!114 &-198110603681848363
 MonoBehaviour:
@@ -75,12 +75,13 @@ MonoBehaviour:
   - {fileID: 4910806070116890467}
   - {fileID: 4938764601345229405}
   - {fileID: 8214377664315307891}
+  - {fileID: 2804917483834979834}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4924300391017495706}
   StringsBanks:
   - {fileID: -3368569581899878049}
-  cacheTime: 638734364987376007
+  cacheTime: 638734396839386732
   cacheVersion: 131622
 --- !u!114 &332943673089768174
 MonoBehaviour:
@@ -163,6 +164,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1776
+--- !u!114 &2804917483834979834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/C4U284_001_Vassals_Main
+  m_EditorClassIdentifier: 
+  Path: event:/C4U284_001_Vassals_Main
+  Guid:
+    Data1: 1471300312
+    Data2: 1333157846
+    Data3: 1217504904
+    Data4: -535320405
+  Banks:
+  - {fileID: 4924300391017495706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 90600
 --- !u!114 &4662062026726873224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,10 +260,10 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638734364987366004
+  lastModified: 638734396839371619
   FileSizes:
   - Name: Desktop
-    Value: 473216
+    Value: 1348576
   Exists: 1
 --- !u!114 &4938764601345229405
 MonoBehaviour:
