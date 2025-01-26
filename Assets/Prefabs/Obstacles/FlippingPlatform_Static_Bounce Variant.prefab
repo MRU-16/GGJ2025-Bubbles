@@ -156,6 +156,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7697224878695227641, guid: 632d69fa0e1df6747809dbd57474c994, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 7778333787991712725, guid: 632d69fa0e1df6747809dbd57474c994, type: 3}
       propertyPath: m_Name
       value: FlippingPlatform_Static_Bounce Variant

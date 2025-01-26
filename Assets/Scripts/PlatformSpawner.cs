@@ -35,10 +35,6 @@ public class PlatformSpawner : MonoBehaviour
     private void Start()
     {
         _amountOfBubbles=_initialBubbles;
-        Debug.Log(_amountOfBubbles);
-        Debug.Log(_maxBubbles);
-        Debug.Log(_amountOfBubbles/_maxBubbles);
-        
         _hud.ChangeBubbleAmount(_amountOfBubbles / _maxBubbles);
     }
 

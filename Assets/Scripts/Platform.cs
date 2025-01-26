@@ -10,11 +10,9 @@ public class Platform : MonoBehaviour
 
     protected void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("Contact");
         ThirdPersonController controller = collision.gameObject.GetComponentInParent<ThirdPersonController>();
         if (controller != null)
         {
-            Debug.Log("Good Contact");
             controller.Jump(_bounceHeight, true);
             _onBounce.Invoke();
             JumpEffects();

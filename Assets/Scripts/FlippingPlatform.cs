@@ -38,7 +38,6 @@ public class FlippingPlatform : MonoBehaviour
     
     private void Flip()
     {
-        Debug.Log("Flipping");
         _isUpright = !_isUpright;
         if (!_isUpright) Tween.Rotation(transform, _upReference.rotation, _flipTime, _flipEase);
         if (_isUpright) Tween.Rotation(transform, _downReference.rotation, _flipTime, _flipEase);
