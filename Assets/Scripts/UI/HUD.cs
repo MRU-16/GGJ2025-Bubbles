@@ -2,6 +2,7 @@ using System.Collections;
 using PrimeTween;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -19,6 +20,13 @@ public class HUD : MonoBehaviour
     [SerializeField] private Color _deadFade;
     [SerializeField] private float _fadeDuration;
 
+    [SerializeField] private TextMeshProUGUI _text;
+    
+    private bool _isInMenu = false;
+    [SerializeField] private GameObject _pauseButton;
+    
+    [SerializeField] private UnityEvent _onDeath;
+
     [Header("Testing")]
     [SerializeField] private bool _fadeOutTest;
     [SerializeField] private Vector3 _spawnPosition;
@@ -27,17 +35,19 @@ public class HUD : MonoBehaviour
 
     private void Start()
     {
+        _text.text = "0 / 3";
         LastCheckpoint=_initialCheckpoint;
         
         _image.color = _winFade;
         FadeScreen(true, _deadFade);
-
+        _pauseButton.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = true;
     }
     
     private void Update()
     {
+        CheckForMenu();
         if (_fadeOutTest)
         {
             _fadeOutTest = false;
@@ -76,6 +86,7 @@ public class HUD : MonoBehaviour
 
     private IEnumerator Respawn()
     {
+        _onDeath?.Invoke();
         FadeScreen(false, _winFade);
         yield return new WaitForSeconds(_fadeDuration);
         ReturnToCheckPoint(LastCheckpoint.position);
@@ -89,6 +100,42 @@ public class HUD : MonoBehaviour
         {
             Debug.Log($"Player at {_player.position}, Moving to {checkpoint}");
             _player.transform.position = checkpoint + new Vector3(0f, 10f, 0f);
+        }
+    }
+    
+    
+    private void CheckForMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.LogWarning("Escape");
+            
+            if (_isInMenu)
+            {
+                Time.timeScale = 1f;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                _pauseButton.SetActive(false);
+            }
+            else
+            {
+                Time.timeScale = 0f;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                _pauseButton.SetActive(true);
+            }
+            _isInMenu = !_isInMenu;
+        }
+    }
+
+    public void CheckPoints(int points, int maxPoints)
+    {
+        // Display points
+        _text.text = points.ToString() + " / " + maxPoints.ToString();
+        
+        if (points >= maxPoints)
+        {
+            Win();
         }
     }
 }

@@ -4,6 +4,9 @@ using UnityEngine;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private StudioEventEmitter _emitter;
+    
+    
+    
     private void Awake()
     {
         Cursor.lockState = CursorLockMode.None;
@@ -19,4 +22,5 @@ public class Menu : MonoBehaviour
     {
         _emitter.Play();
     }
+    
 }
