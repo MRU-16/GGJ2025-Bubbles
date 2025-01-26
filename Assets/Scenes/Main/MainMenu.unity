@@ -798,7 +798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb5ceea195847347981de17c52bad74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _emitter: {fileID: 0}
+  _emitter: {fileID: 622351716}
   menuItemsToShow:
   - {fileID: 990548330}
   menuItemsToHide:
@@ -851,6 +851,18 @@ MonoBehaviour:
       - m_Target: {fileID: 622351712}
         m_TargetAssemblyTypeName: MenuNav, Assembly-CSharp
         m_MethodName: ChangeView
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 622351716}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -913,11 +925,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 735152273
+      Data2: 1169098305
+      Data3: -916874858
+      Data4: 990616177
+    Path: event:/Bubbles Popping (Pick up and destroyed)
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -927,8 +939,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &624884195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1311,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 728438574}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &728438571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32aa34f691b29604ea776fda0b88dc7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _emitter: {fileID: 0}
+  _emitter: {fileID: 728438574}
 --- !u!114 &728438574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,11 +1389,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 735152273
+      Data2: 1169098305
+      Data3: -916874858
+      Data4: 990616177
+    Path: event:/Bubbles Popping (Pick up and destroyed)
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -1379,8 +1403,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &841918882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2117,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1617372825}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1617372823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,11 +2182,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 735152273
+      Data2: 1169098305
+      Data3: -916874858
+      Data4: 990616177
+    Path: event:/Bubbles Popping (Pick up and destroyed)
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -2160,8 +2196,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1798880865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,11 +2589,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 236731118
-      Data2: 1295915875
-      Data3: -2112668772
-      Data4: -322446634
-    Path: event:/Death Sound
+      Data1: 735152273
+      Data2: 1169098305
+      Data3: -916874858
+      Data4: 990616177
+    Path: event:/Bubbles Popping (Pick up and destroyed)
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -2758,7 +2794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb5ceea195847347981de17c52bad74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _emitter: {fileID: 0}
+  _emitter: {fileID: 1935878950}
   menuItemsToShow:
   - {fileID: 1361391996}
   menuItemsToHide:
@@ -2811,6 +2847,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1935878946}
         m_TargetAssemblyTypeName: MenuNav, Assembly-CSharp
         m_MethodName: ChangeView
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1935878950}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2873,11 +2921,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 735152273
+      Data2: 1169098305
+      Data3: -916874858
+      Data4: 990616177
+    Path: event:/Bubbles Popping (Pick up and destroyed)
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -2887,8 +2935,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1236255856068136925
 PrefabInstance:
   m_ObjectHideFlags: 0

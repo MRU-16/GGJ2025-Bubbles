@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a0d4de-b763-4283-b9a0-10f05931a364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2025-Bubbles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2025-Bubbles/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuNav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuNav.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Quit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{19e4c854-4c40-4d5d-8ece-14b08b6c8439}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{19e4c854-4c40-4d5d-8ece-14b08b6c8439}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{21260d24-a268-457d-a83f-69c9ff11fdb7}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{21260d24-a268-457d-a83f-69c9ff11fdb7}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{296867d3-297c-4b8f-b730-0406216b3410}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{296867d3-297c-4b8f-b730-0406216b3410}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{2dd37ba2-9177-4c82-98ae-5300a03a28a1}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{2dd37ba2-9177-4c82-98ae-5300a03a28a1}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{4817e9c5-25ac-4791-abb5-ae225690a6da}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{4817e9c5-25ac-4791-abb5-ae225690a6da}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{4a39ac8e-e277-4089-affd-99da198e934d}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{4a39ac8e-e277-4089-affd-99da198e934d}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{6437264a-5096-4d76-853b-67e1b97db950}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{6437264a-5096-4d76-853b-67e1b97db950}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{6977be9c-adc7-4dc6-be36-dbaefef2ad0e}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{6977be9c-adc7-4dc6-be36-dbaefef2ad0e}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{834d90d7-3106-43bc-a808-fa7088a51cbf}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{834d90d7-3106-43bc-a808-fa7088a51cbf}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{86d060cb-397a-4f55-bc3f-aa5569115c3f}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{86d060cb-397a-4f55-bc3f-aa5569115c3f}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{ed363a07-58c3-44db-8dc0-b0676b1d5ce3}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{ed363a07-58c3-44db-8dc0-b0676b1d5ce3}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{ee973dd4-a89e-4e55-8bd4-919fe5413ee0}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{ee973dd4-a89e-4e55-8bd4-919fe5413ee0}.pdc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:/GGJ_builds/Build_02\GGJ2025-Bubbles.exe" />
