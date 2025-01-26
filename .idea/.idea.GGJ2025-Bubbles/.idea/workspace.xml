@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a0d4de-b763-4283-b9a0-10f05931a364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinishLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinishLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/safe-develop",
+    "git-widget-placeholder": "feature/respawning",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +52,7 @@
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:/GGJ_builds/Build_04\GGJ2025-Bubbles.exe" />
+      <option name="EXE_PATH" value="D:/GGJ_builds/Build_06\GGJ2025-Bubbles.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:\GGJ_builds\Build_01" />
       <option name="PASS_PARENT_ENVS" value="1" />
