@@ -180,8 +180,8 @@ MonoBehaviour:
   _onBounce:
     m_PersistentCalls:
       m_Calls: []
-  _bounceHeight: 12
-  _bubbleLifespan: 5
+  _bounceHeight: 8
+  _bubbleLifespan: 3
   _onBubbleExpired:
     m_PersistentCalls:
       m_Calls: []

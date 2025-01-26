@@ -149,4 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10a371c9497beff4f8ab5b5c2b3df926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bounceHeight: 5
+  _onBounce:
+    m_PersistentCalls:
+      m_Calls: []
+  _bounceHeight: 10
