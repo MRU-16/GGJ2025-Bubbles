@@ -647,60 +647,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.size
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2121875487}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FMODUnity.StudioEventEmitter, FMODUnity
-      objectReference: {fileID: 0}
-    - target: {fileID: 153448342923574289, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onPlatformSpawned.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2121875487}
-    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FMODUnity.StudioEventEmitter, FMODUnity
       objectReference: {fileID: 0}
     - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      propertyPath: _onJump.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2148176801004552080, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
@@ -711,6 +683,34 @@ PrefabInstance:
       propertyPath: _initialCheckpoint
       value: 
       objectReference: {fileID: 750946547}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2121875485}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioEventEmitter, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5595516011317465053, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -758,9 +758,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5352741955811641681, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2121875485}
-    - targetCorrespondingSourceObject: {fileID: 1651664408636069146, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2121875487}
   m_SourcePrefab: {fileID: 100100000, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
 --- !u!1 &2121875484 stripped
 GameObject:
@@ -782,47 +779,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1645874517
-      Data2: 1231688380
-      Data3: 782085530
-      Data4: 246598615
-    Path: event:/Bubble Spawn
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!1 &2121875486 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1651664408636069146, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
-  m_PrefabInstance: {fileID: 2121875483}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2121875487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121875486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 922228606
-      Data2: 1181512074
-      Data3: -314330969
-      Data4: 762253540
-    Path: event:/Bounce off Bubble
+      Data1: 236731118
+      Data2: 1295915875
+      Data3: -2112668772
+      Data4: -322446634
+    Path: event:/Death Sound
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

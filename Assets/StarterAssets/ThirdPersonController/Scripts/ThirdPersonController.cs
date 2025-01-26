@@ -16,8 +16,10 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        
         [Header("Events")] [SerializeField] private UnityEvent _onWin;
         [SerializeField] private UnityEvent _onJump;
+        [SerializeField] private UnityEvent _onLand;
         [field: SerializeField] public HUD Hud { get; private set; }
         
         [Header("Player")]
@@ -195,6 +197,8 @@ namespace StarterAssets
             // update animator if using character
             if (_hasAnimator)
             {
+                _onLand.Invoke();
+                Debug.Log("Landing");
                 _animator.SetBool(_animIDGrounded, Grounded);
             }
         }

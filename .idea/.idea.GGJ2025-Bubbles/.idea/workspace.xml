@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5a0d4de-b763-4283-b9a0-10f05931a364" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2025-Bubbles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2025-Bubbles/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BubblePickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BubblePickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Instance/BubblePlatform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Instance/BubblePlatform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MassPickup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MassPickup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerContainer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/SceneLoaderButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/SceneLoaderButton.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gyms/Gym_MovingPlatforms.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubble.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.unsaved/Metadata/AudioFile/{2dc12365-d2a2-4c6a-905c-9eb2f5f5a9bb}.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.unsaved/Metadata/Event/{7e1a690f-1494-4d45-aded-44a6a5b52023}.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.unsaved/metadataFileMapping.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{a72a7751-a357-4a4f-8f8c-d8cae6812d7d}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/.cache/{a72a7751-a357-4a4f-8f8c-d8cae6812d7d}.pdc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{36f8177e-718a-466c-a7b0-43ede4106f2d}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{36f8177e-718a-466c-a7b0-43ede4106f2d}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{0e1c3aee-1b63-4d3e-9c3b-1382d6dac7ec}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{0e1c3aee-1b63-4d3e-9c3b-1382d6dac7ec}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{1fb5d8e6-05eb-4e60-a7e2-8779053a3197}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{1fb5d8e6-05eb-4e60-a7e2-8779053a3197}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{dcf517f7-8b89-486d-9bf9-6b57c62fd5ba}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMOD/GGJ_2025_Bubble/Metadata/Event/{dcf517f7-8b89-486d-9bf9-6b57c62fd5ba}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +61,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/player-audio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/player-audio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:/GGJ_builds/Build_03\GGJ2025-Bubbles.exe" />
+      <option name="EXE_PATH" value="D:/GGJ_builds/Build_04\GGJ2025-Bubbles.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:\GGJ_builds\Build_01" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -124,6 +139,7 @@
       <workItem from="1737828211901" duration="9957000" />
       <workItem from="1737849069845" duration="322000" />
       <workItem from="1737849974770" duration="767000" />
+      <workItem from="1737918761643" duration="2885000" />
     </task>
     <servers />
   </component>

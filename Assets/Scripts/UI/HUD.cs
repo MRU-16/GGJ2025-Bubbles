@@ -2,6 +2,7 @@ using System.Collections;
 using PrimeTween;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -18,6 +19,8 @@ public class HUD : MonoBehaviour
     [SerializeField] private Color _winFade;
     [SerializeField] private Color _deadFade;
     [SerializeField] private float _fadeDuration;
+
+    [SerializeField] private UnityEvent _onDeath;
 
     [Header("Testing")]
     [SerializeField] private bool _fadeOutTest;
@@ -76,6 +79,7 @@ public class HUD : MonoBehaviour
 
     private IEnumerator Respawn()
     {
+        _onDeath?.Invoke();
         FadeScreen(false, _winFade);
         yield return new WaitForSeconds(_fadeDuration);
         ReturnToCheckPoint(LastCheckpoint.position);

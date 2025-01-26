@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734436639210915
+  lastModified: 638734881941239211
   FileSizes:
   - Name: Desktop
     Value: 1486
@@ -109,7 +109,7 @@ MonoBehaviour:
   - {fileID: 4924300391017495706}
   StringsBanks:
   - {fileID: -3368569581899878049}
-  cacheTime: 638734436639210915
+  cacheTime: 638734881941239211
   cacheVersion: 131622
 --- !u!114 &332943673089768174
 MonoBehaviour:
@@ -272,7 +272,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 600
+  Length: 500
 --- !u!114 &4924300391017495706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638734436639185904
+  lastModified: 638734881941219261
   FileSizes:
   - Name: Desktop
     Value: 2475328
@@ -319,7 +319,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1140
+  Length: 860
 --- !u!114 &5411519948035578679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1750
+  Length: 900
 --- !u!114 &9093009989325207581
 MonoBehaviour:
   m_ObjectHideFlags: 0

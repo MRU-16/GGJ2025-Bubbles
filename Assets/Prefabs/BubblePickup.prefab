@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 404423344089696920}
   - component: {fileID: 1118808811303206593}
   - component: {fileID: 5356403795853673543}
+  - component: {fileID: 8211437642071995413}
   m_Layer: 0
   m_Name: BubblePickup
   m_TagString: Untagged
@@ -121,5 +122,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90741720af82e2443896aaa8441512b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collectionDuration: 3
+  _collectionBuffer: 0.3
+  _collectionSpeed: 12
   _bubbleValue: 1
+  _onCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8211437642071995413}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8211437642071995413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8267388594944279174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -587917321
+      Data2: 1215138697
+      Data3: 1466694043
+      Data4: -1160433722
+    Path: event:/Absorb Soap
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
