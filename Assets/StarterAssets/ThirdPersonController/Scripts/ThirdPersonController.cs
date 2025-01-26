@@ -169,7 +169,10 @@ namespace StarterAssets
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
-
+            if (Input.GetKeyDown("p"))
+            {
+                GoToPoint(new Vector3(0f, 100f, 0f));
+            }
             JumpAndGravity();
             GroundedCheck();
             Move();
@@ -424,6 +427,12 @@ namespace StarterAssets
         public void Win()
         {
             Hud.CheckPoints(_pointsWon, _pointsToWin);
+        }
+
+        public void GoToPoint(Vector3 point)
+        {
+            Debug.LogError("Going to the point");
+            _controller.Move(transform.up * 10000);
         }
     }
 }

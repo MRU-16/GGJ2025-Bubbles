@@ -22,6 +22,8 @@ public class HUD : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI _text;
     
+    
+    
     private bool _isInMenu = false;
     [SerializeField] private GameObject _pauseButton;
     
@@ -96,11 +98,13 @@ public class HUD : MonoBehaviour
 
     private void ReturnToCheckPoint(Vector3 checkpoint)
     {
+        
         for (int i = 0; i < 100; i++)
         {
             Debug.Log($"Player at {_player.position}, Moving to {checkpoint}");
             _player.transform.position = checkpoint + new Vector3(0f, 10f, 0f);
         }
+        
     }
     
     
