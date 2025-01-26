@@ -55,13 +55,9 @@ public class PlatformSpawner : MonoBehaviour
         
         Instantiate(_platformPrefab, transform.position + _spawnOffset, Quaternion.identity);
         _onPlatformSpawned.Invoke();
-        Debug.LogError(_amountOfBubbles + "-" + _bubblesPerPlatform);
         _amountOfBubbles -= _bubblesPerPlatform;
-        Debug.LogError(_amountOfBubbles);
         _hud.ChangeBubbleAmount(_amountOfBubbles / _maxBubbles);
         StartCoroutine(SpawnCooldown());
-        
-        Debug.Log("Spawning Platform");
     }
 
     private IEnumerator SpawnCooldown()
@@ -72,6 +68,4 @@ public class PlatformSpawner : MonoBehaviour
         _canSpawn = true;
         _hud.CanSpawnBubble = true;
     }
-    
-    
 }
