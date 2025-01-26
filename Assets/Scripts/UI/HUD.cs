@@ -20,6 +20,9 @@ public class HUD : MonoBehaviour
     [SerializeField] private Color _deadFade;
     [SerializeField] private float _fadeDuration;
 
+    private bool _isInMenu = false;
+    [SerializeField] private GameObject _pauseButton;
+    
     [SerializeField] private UnityEvent _onDeath;
 
     [Header("Testing")]
@@ -34,13 +37,14 @@ public class HUD : MonoBehaviour
         
         _image.color = _winFade;
         FadeScreen(true, _deadFade);
-
+        _pauseButton.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = true;
     }
     
     private void Update()
     {
+        CheckForMenu();
         if (_fadeOutTest)
         {
             _fadeOutTest = false;
@@ -93,6 +97,31 @@ public class HUD : MonoBehaviour
         {
             Debug.Log($"Player at {_player.position}, Moving to {checkpoint}");
             _player.transform.position = checkpoint + new Vector3(0f, 10f, 0f);
+        }
+    }
+    
+    
+    private void CheckForMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.LogWarning("Escape");
+            
+            if (_isInMenu)
+            {
+                Time.timeScale = 1f;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                _pauseButton.SetActive(false);
+            }
+            else
+            {
+                Time.timeScale = 0f;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                _pauseButton.SetActive(true);
+            }
+            _isInMenu = !_isInMenu;
         }
     }
 }

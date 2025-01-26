@@ -16,6 +16,8 @@ public class SceneLoader : ButtonBase
     
     public void LoadScene(string sceneName)
     {
+        Time.timeScale = 1f;
+
         if (_clickDelay == 0f) SceneManager.LoadScene(sceneName);
         else StartCoroutine(DelayedLoadScene(sceneName));
         Tween.Color(_fadeImage, new Color(1f, 1f, 1f, 1f), _clickDelay);

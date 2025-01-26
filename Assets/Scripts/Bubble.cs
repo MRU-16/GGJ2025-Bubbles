@@ -14,10 +14,15 @@ public class Bubble : Platform
     [SerializeField] private float _scalingMag;
     
     [SerializeField] private Ease _ease;
+
+    
     private void Start()
     { 
         StartCoroutine(Lifespan());
+        
     }
+
+    
 
     private IEnumerator Lifespan()
     {
@@ -46,5 +51,7 @@ public class Bubble : Platform
             yield return null;
         }
     }
+
+    
     
 }
