@@ -16,8 +16,14 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        
         [Header("Events")] [SerializeField] private UnityEvent _onWin;
+        [SerializeField] private UnityEvent _onJump;
+        [SerializeField] private UnityEvent _onLand;
         [field: SerializeField] public HUD Hud { get; private set; }
+
+        [SerializeField] private int _pointsToWin = 3;
+        public int _pointsWon = 0;
         
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -194,6 +200,8 @@ namespace StarterAssets
             // update animator if using character
             if (_hasAnimator)
             {
+                _onLand.Invoke();
+                Debug.Log("Landing");
                 _animator.SetBool(_animIDGrounded, Grounded);
             }
         }
@@ -391,6 +399,8 @@ namespace StarterAssets
         {
             if (overrideJump)
             {
+                _onJump.Invoke();
+
                 _verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * Gravity);
                 if (_hasAnimator)
                 {
@@ -413,7 +423,7 @@ namespace StarterAssets
 
         public void Win()
         {
-            _onWin.Invoke();
+            Hud.CheckPoints(_pointsWon, _pointsToWin);
         }
     }
 }

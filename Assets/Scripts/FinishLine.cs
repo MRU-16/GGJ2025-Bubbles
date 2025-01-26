@@ -8,7 +8,9 @@ public class FinishLine : MonoBehaviour
         ThirdPersonController controller = other.gameObject.GetComponentInParent<ThirdPersonController>();
         if (controller != null)
         {
+            controller._pointsWon++;
             controller.Win();
+            Destroy(gameObject);
         }
     }
 }
