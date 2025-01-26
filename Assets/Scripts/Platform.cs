@@ -17,6 +17,12 @@ public class Platform : MonoBehaviour
             Debug.Log("Good Contact");
             controller.Jump(_bounceHeight, true);
             _onBounce.Invoke();
+            JumpEffects();
         }
+    }
+
+    protected virtual void JumpEffects()
+    {
+        
     }
 }
