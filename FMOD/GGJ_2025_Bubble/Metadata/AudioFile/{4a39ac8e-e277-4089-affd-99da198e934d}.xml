@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4a39ac8e-e277-4089-affd-99da198e934d}">
+		<property name="assetPath">
+			<value>person-running-loop-245173.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.247999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d8226fc7-a1d2-40e4-bcf9-d1eb99f8898e}</destination>
+		</relationship>
+	</object>
+</objects>

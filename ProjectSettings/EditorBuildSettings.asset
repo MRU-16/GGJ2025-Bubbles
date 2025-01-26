@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main/MainMenu.unity
     guid: 323e7cf2454e1e44781fed464b86ec5c
   - enabled: 1
+    path: Assets/Scenes/Gyms/Mark-Level-GYM.unity
+    guid: b5aa35f45efe52b46ba0ec7ed23d97b1
+  - enabled: 1
     path: Assets/Scenes/Gyms/Gym_MovingPlatforms.unity
     guid: 90c4524f7f1ace7429fe0dd3c33966ee
   m_configObjects:
