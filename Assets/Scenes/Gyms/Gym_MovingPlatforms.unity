@@ -647,6 +647,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioEventEmitter, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651664408636069137, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onLand.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2148176801004552080, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       propertyPath: m_Name
       value: PlayerContainer
@@ -655,6 +683,34 @@ PrefabInstance:
       propertyPath: _initialCheckpoint
       value: 
       objectReference: {fileID: 750946547}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2121875485}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioEventEmitter, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805032477159253966, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      propertyPath: _onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5595516011317465053, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -723,13 +779,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1645874517
-      Data2: 1231688380
-      Data3: 782085530
-      Data4: 246598615
-    Path: event:/Bubble Spawn
+      Data1: 236731118
+      Data2: 1295915875
+      Data3: -2112668772
+      Data4: -322446634
+    Path: event:/Death Sound
   Event: 
-  EventPlayTrigger: 1
+  EventPlayTrigger: 0
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0

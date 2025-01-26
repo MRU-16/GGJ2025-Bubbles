@@ -10,6 +10,10 @@ public class Bubble : Platform
     [SerializeField, Header("Bounce Effects")] private Transform _bubbleMesh;
     [SerializeField] private Vector3 _scalingMagnitude;
     [SerializeField] private float _scalingDuration;
+
+    [SerializeField] private float _scalingMag;
+    
+    [SerializeField] private Ease _ease;
     private void Start()
     { 
         StartCoroutine(Lifespan());
@@ -17,7 +21,10 @@ public class Bubble : Platform
 
     private IEnumerator Lifespan()
     {
-        yield return new WaitForSeconds(_bubbleLifespan);
+        yield return new WaitForSeconds(_bubbleLifespan * 0.95f);
+        StartCoroutine(BubbleExpire());
+        
+        yield return new WaitForSeconds(_bubbleLifespan * 0.05f);
         _onBubbleExpired?.Invoke();
         Destroy(this.gameObject);
     }
@@ -26,4 +33,18 @@ public class Bubble : Platform
     {
         Tween.ShakeScale(_bubbleMesh, _scalingMagnitude, _scalingDuration);
     }
+
+    private IEnumerator BubbleExpire()
+    {
+        Vector3 scale = _bubbleMesh.localScale;
+        float time = 0f;
+        while (time < _bubbleLifespan * 0.05f)
+        {
+            time += Time.deltaTime;
+            scale *= 1 + time * _scalingMag;
+            _bubbleMesh.localScale = scale;
+            yield return null;
+        }
+    }
+    
 }
