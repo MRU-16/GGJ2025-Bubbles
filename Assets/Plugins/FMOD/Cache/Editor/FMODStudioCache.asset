@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734424131827569
+  lastModified: 638734432635659890
   FileSizes:
   - Name: Desktop
-    Value: 1424
+    Value: 1486
   Exists: 1
+--- !u!114 &-335990777300429141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/C4U257_001_Vassals_Main
+  m_EditorClassIdentifier: 
+  Path: event:/C4U257_001_Vassals_Main
+  Guid:
+    Data1: 2115660047
+    Data2: 1296372884
+    Data3: -1505432147
+    Data4: 589346213
+  Banks:
+  - {fileID: 4924300391017495706}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 91471
 --- !u!114 &-198110603681848363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,12 +103,13 @@ MonoBehaviour:
   - {fileID: 4938764601345229405}
   - {fileID: 8214377664315307891}
   - {fileID: 2804917483834979834}
+  - {fileID: -335990777300429141}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4924300391017495706}
   StringsBanks:
   - {fileID: -3368569581899878049}
-  cacheTime: 638734424131827569
+  cacheTime: 638734432635659890
   cacheVersion: 131622
 --- !u!114 &332943673089768174
 MonoBehaviour:
@@ -260,10 +288,10 @@ MonoBehaviour:
   Path: FMOD/GGJ_2025_Bubble/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638734424131817328
+  lastModified: 638734432635639703
   FileSizes:
   - Name: Desktop
-    Value: 1348576
+    Value: 2475328
   Exists: 1
 --- !u!114 &4938764601345229405
 MonoBehaviour:

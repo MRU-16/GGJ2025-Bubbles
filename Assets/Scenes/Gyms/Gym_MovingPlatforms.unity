@@ -698,8 +698,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5352741955811641681, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2121875485}
   m_SourcePrefab: {fileID: 100100000, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+--- !u!1 &2121875484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5352741955811641681, guid: 016ea91ff6273704a9e0d9d43209ef46, type: 3}
+  m_PrefabInstance: {fileID: 2121875483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2121875485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121875484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1645874517
+      Data2: 1231688380
+      Data3: 782085530
+      Data4: 246598615
+    Path: event:/Bubble Spawn
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1308876188151110299
 PrefabInstance:
   m_ObjectHideFlags: 0
