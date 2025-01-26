@@ -1,5 +1,6 @@
 ﻿ using UnityEngine;
  using UnityEngine.Events;
+ using UnityEngine.Serialization;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -16,7 +17,7 @@ namespace StarterAssets
     public class ThirdPersonController : MonoBehaviour
     {
         [Header("Events")] [SerializeField] private UnityEvent _onWin;
-        [SerializeField] private HUD _hud;
+        [field: SerializeField] public HUD Hud { get; private set; }
         
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]

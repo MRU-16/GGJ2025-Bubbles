@@ -8,6 +8,5 @@ public class Poppable : MonoBehaviour
     public void Pop()
     {
         _onPopped.Invoke();
-        Debug.Log("Popped");
     }   
 }
