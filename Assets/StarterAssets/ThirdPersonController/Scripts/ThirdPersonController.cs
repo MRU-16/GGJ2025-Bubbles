@@ -17,6 +17,7 @@ namespace StarterAssets
     public class ThirdPersonController : MonoBehaviour
     {
         [Header("Events")] [SerializeField] private UnityEvent _onWin;
+        [SerializeField] private UnityEvent _onJump;
         [field: SerializeField] public HUD Hud { get; private set; }
         
         [Header("Player")]
@@ -391,6 +392,8 @@ namespace StarterAssets
         {
             if (overrideJump)
             {
+                _onJump.Invoke();
+
                 _verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * Gravity);
                 if (_hasAnimator)
                 {
