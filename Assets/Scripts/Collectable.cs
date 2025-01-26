@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    [SerializeField] private float _collectionDuration;
-    [SerializeField] private float _bubbleValue;
+    [SerializeField] private float _collectionBuffer = 0.3f;
+    [SerializeField] private float _collectionSpeed = 12f;
+    [SerializeField] private float _bubbleValue = 1f;
     
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Contact");
         PlatformSpawner spawner = other.GetComponentInParent<PlatformSpawner>();
         if (spawner != null)
         {
+            Debug.Log("Spawner Intercepted");
             StartCoroutine(GoToPlayer(spawner));
         }
     }
 
     private IEnumerator GoToPlayer(PlatformSpawner spawner)
     {
-        float time = 0f;
-        while (time < _collectionDuration)
+        while (_collectionBuffer <Vector3.Distance(transform.position, spawner.transform.position))
         {
-            time += Time.deltaTime;
-            
-            
-            
+            transform.Translate((spawner.transform.position - transform.position) * Time.deltaTime * _collectionSpeed);
             yield return null;
         }
         spawner.AddToBank(_bubbleValue);

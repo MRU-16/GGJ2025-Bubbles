@@ -29,7 +29,7 @@ public class PlatformSpawner : MonoBehaviour
     {
         _playerInput = GetComponent<PlayerInput>();
         _controller = GetComponent<ThirdPersonController>();
-        _bubblesPerPlatform = _initialBubbles;
+        _amountOfBubbles = _initialBubbles;
     }
 
     private void Start()
@@ -51,11 +51,13 @@ public class PlatformSpawner : MonoBehaviour
 
     public void OnPlatform(InputValue value)
     {
-        if (_controller.Grounded || !_canSpawn && _amountOfBubbles >= _bubblesPerPlatform) return;
-        _amountOfBubbles -= _bubblesPerPlatform;
+        if (_controller.Grounded || !_canSpawn || _amountOfBubbles < _bubblesPerPlatform) return;
         
         Instantiate(_platformPrefab, transform.position + _spawnOffset, Quaternion.identity);
         _onPlatformSpawned.Invoke();
+        Debug.LogError(_amountOfBubbles + "-" + _bubblesPerPlatform);
+        _amountOfBubbles -= _bubblesPerPlatform;
+        Debug.LogError(_amountOfBubbles);
         _hud.ChangeBubbleAmount(_amountOfBubbles / _maxBubbles);
         StartCoroutine(SpawnCooldown());
         

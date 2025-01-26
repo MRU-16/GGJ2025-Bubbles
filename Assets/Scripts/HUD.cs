@@ -59,6 +59,7 @@ public class HUD : MonoBehaviour
 
     public void ChangeBubbleAmount(float ratio)
     {
+        Debug.Log("Changing bubble amount on hud");
         _fillBar.fillAmount = ratio;
     }
 
